@@ -1,5 +1,7 @@
 # jasenka-proposal
 
+**Live:** <https://zexarus-hub.github.io/jasenka-proposal/>
+
 An interactive, single-page web proposal (in Czech) for redesigning the website of the folklore ensemble **Jasenka**. It presents the project scope, a detailed price breakdown, the payment schedule, the timeline and the terms of cooperation, with scroll-driven animations.
 
 ## Contents
@@ -37,6 +39,10 @@ The app then runs at <http://localhost:5173/>.
 | `npm run build`   | Production build into the `dist/` folder |
 | `npm run preview` | Local preview of the production build  |
 | `npm run lint`    | Code check with Oxlint                 |
+
+## Deployment
+
+Every push to the `main` branch builds and deploys the site to GitHub Pages automatically (workflow `.github/workflows/deploy.yml`). The `base` path in `vite.config.js` must match the repository name.
 
 ## Project structure
 
