@@ -37,7 +37,7 @@ const priceBlocks = [
   {
     label: 'III. Vývoj & implementace',
     rows: [
-      { name: 'Statický frontend', note: 'HTML5 / CSS3 / JS, responzivní layout — PageSpeed Insights ≥ 90', price: '10 000 Kč', hours: '14 hod.' },
+      { name: 'Frontend / Backend', note: 'HTML5 / CSS3 / JS, responzivní layout — PageSpeed Insights ≥ 90', price: '10 000 Kč', hours: '14 hod.' },
       { name: 'Formulář — objednávka knih', note: 'Validace, odeslání na e-mail, automatické potvrzení objednateli', price: '4 000 Kč', hours: '6 hod.' },
       { name: 'Sekce „Kde nás najdete"', note: 'Přehled akcí s jednoduchým rozhraním pro přidávání nových termínů', price: '5 000 Kč', hours: '7 hod.' },
       { name: 'Migrace obsahu', note: 'Přenos textů, fotografií a archivu ze stávajícího webu', price: '3 000 Kč', hours: '4 hod.' },
@@ -58,7 +58,7 @@ const priceBlocks = [
   {
     label: 'V. SEO & technická kvalita',
     rows: [
-      { name: 'On-page SEO', note: 'Meta tagy, Schema.org, sitemap.xml, robots.txt, alt texty', price: '3 000 Kč', hours: '4 hod.' },
+      { name: 'On-page SEO a GEO', note: 'Meta tagy, Schema.org, sitemap.xml, robots.txt, alt texty, optimalizace pro AI vyhledávače (llms.txt, strukturovaný obsah)', price: '3 000 Kč', hours: '4 hod.' },
     ],
     subtotal: '3 000 Kč',
     subtotalHours: '4 hod.',
@@ -66,7 +66,7 @@ const priceBlocks = [
   {
     label: 'VI. Spuštění & podpora',
     rows: [
-      { name: 'Testování & nasazení', note: 'QA napříč prohlížeči a zařízeními, produkční server, finální DNS konfigurace', price: '4 000 Kč', hours: '6 hod.' },
+      { name: 'Testování a nasazení', note: 'QA napříč prohlížeči a zařízeními, produkční server, finální DNS konfigurace', price: '4 000 Kč', hours: '6 hod.' },
       { name: 'Předání dokumentace', note: 'Jak přidávat akce a spravovat objednávky knih', price: '1 500 Kč', hours: '2 hod.' },
       { name: 'Podpora po spuštění — 30 dní', note: 'Drobné úpravy a opravy chyb bezprostředně po spuštění webu — odezva do 24 h', price: '2 500 Kč', hours: '5 hod.' },
     ],
@@ -164,7 +164,7 @@ function Cover() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Redesign webu
+            Redesign
           </motion.div>
           <motion.div
             className="cover-h1-wrap"
@@ -173,7 +173,7 @@ function Cover() {
             transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           >
             <h1>
-              Nový web<br /><em>pro valašský folklorní sbor</em><br />Jasenka
+              Nová webová prezentace<br /><em>pro valašský folklorní sbor</em><br />Jasenka
             </h1>
           </motion.div>
         </div>
@@ -264,7 +264,7 @@ function App() {
           <Reveal delay={0.1}>
             <p className="prose">
               Předkládám návrh na kompletní redesign webu <strong>jasenka.com</strong>.
-              Nový web bude z větší části statický — důraz na rychlost a jednoduchost.
+              Nová webová prezentace bude z větší části statická — důraz na rychlost a jednoduchost.
               Dynamické jsou dvě klíčové funkce: formulář pro objednávku knih a sekce akcí,
               kde bude přehled nadcházejících vystoupení celé organizace.
             </p>

@@ -43,7 +43,8 @@
 }
 
 .cover-tag {
-  font-size: 0.65rem;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 0.26em;
   text-transform: uppercase;
   color: var(--red);
@@ -175,7 +176,8 @@ main {
 }
 
 .section-label span {
-  font-size: 0.62rem;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--red);
@@ -191,14 +193,14 @@ main {
 
 /* ── PROSE ───────────────────────────────────────────── */
 .prose {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
   font-weight: 300;
   line-height: 1.8;
   color: var(--blue);
 }
 
-.prose strong { font-weight: 600; }
+.prose strong { font-weight: 500; }
 
 /* ── SCOPE ───────────────────────────────────────────── */
 .scope-list {
@@ -541,7 +543,8 @@ main {
 }
 
 .closing-note .cn-label {
-  font-size: 0.62rem;
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--red);
@@ -549,8 +552,8 @@ main {
 }
 
 .closing-note .cn-text {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
   font-weight: 300;
   line-height: 1.8;
   color: var(--blue);
@@ -560,7 +563,7 @@ main {
   margin-top: 1.8rem;
   padding-top: 1.8rem;
   border-top: 1px solid var(--rule);
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 footer {
