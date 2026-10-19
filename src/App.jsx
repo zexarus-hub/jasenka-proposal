@@ -29,9 +29,9 @@ const priceBlocks = [
   {
     label: 'II. Grafika — šablony pro sociální sítě',
     rows: [
-      { name: 'Šablony na propagaci akcí', note: 'Sada editovatelných šablon (Instagram, Facebook) pro jednotlivé sbory — jednotný branding Jasenky', price: '4 000 Kč', hours: '6 hod.' },
+      { name: 'Šablony na propagaci akcí', note: 'Sada editovatelných šablon (Instagram, Facebook) pro jednotlivé sbory — jednotný branding Jasenky', price: '1 000 Kč', hours: '6 hod.' },
     ],
-    subtotal: '4 000 Kč',
+    subtotal: '1 000 Kč',
     subtotalHours: '6 hod.',
   },
   {
@@ -76,9 +76,9 @@ const priceBlocks = [
 ]
 
 const payments = [
-  { step: '01', when: 'Podpis smlouvy', pct: '40 %', amt: '25 200 Kč', desc: 'Záloha pro zahájení prací' },
-  { step: '02', when: 'Schválení designu', pct: '30 %', amt: '18 900 Kč', desc: 'Po odsouhlasení finálních vizuálů' },
-  { step: '03', when: 'Předání webu', pct: '30 %', amt: '18 900 Kč', desc: 'Po spuštění do ostrého provozu' },
+  { step: '01', when: 'Podpis smlouvy', pct: '40 %', amt: '24 000 Kč', desc: 'Záloha pro zahájení prací' },
+  { step: '02', when: 'Schválení designu', pct: '30 %', amt: '18 000 Kč', desc: 'Po odsouhlasení finálních vizuálů' },
+  { step: '03', when: 'Předání webu', pct: '30 %', amt: '18 000 Kč', desc: 'Po spuštění do ostrého provozu' },
 ]
 
 const timeline = [
@@ -95,7 +95,6 @@ const conditions = [
   <>Bez ohledu na zvolenou formu musí být smlouva podepsána před zahájením prací.</>,
   <>Nabídka nezahrnuje tvorbu fotografického materiálu ani placené reklamní kampaně.</>,
   <>Přístupy k hostingu, doméně a FTP/SSH si zajistím sám u Jana Václavíka.</>,
-  <>Změny v rozsahu po schválení designu: hodinová sazba <strong>1 200 Kč/hod.</strong></>,
   <>Zdrojové soubory jsou předány po uhrazení odměny.</>,
   <>Doménová registrace a hosting jsou již zajištěny — nejsou součástí této nabídky.</>,
 ]
@@ -192,7 +191,7 @@ function Cover() {
           </p>
           <div className="cover-price">
             <span className="p-label">Celková cena</span>
-            <span className="p-amount">63 000 Kč</span>
+            <span className="p-amount">60 000 Kč</span>
             <span className="p-note">Formou DPP</span>
           </div>
         </motion.div>
@@ -298,7 +297,7 @@ function App() {
           <div className="total-strip">
             <div>
               <span className="t-label">Celková cena</span>
-              <div className="t-amount">63 000 Kč</div>
+              <div className="t-amount">60 000 Kč</div>
               <span className="t-note">Formou DPP</span>
             </div>
             <div className="t-badges">
@@ -332,7 +331,7 @@ function App() {
               </div>
               <div className="dpp-row">
                 <span className="dpp-label">Výše odměny</span>
-                <span className="dpp-val">63 000 Kč</span>
+                <span className="dpp-val">60 000 Kč</span>
               </div>
               <div className="dpp-row">
                 <span className="dpp-label">Splatnost</span>
